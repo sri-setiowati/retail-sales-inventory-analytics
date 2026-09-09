@@ -1,0 +1,66 @@
+product_id,product_name,variant,category,supplier,unit_price,unit_cost,reorder_point,lead_time_days,target_stock_days
+SKU-1001,Bluetooth Speaker,Standard,Electronics,Nova Supply Co.,120.16,83.77,21,10,21
+SKU-1002,Bluetooth Speaker,Premium,Electronics,Nova Supply Co.,110.05,87.34,24,11,21
+SKU-1003,Bluetooth Speaker,Pro,Electronics,Brightline Wholesale,118.47,71.07,23,4,21
+SKU-1004,Wireless Earbuds,Standard,Electronics,Aster Distribution,77.45,55.47,16,11,21
+SKU-1005,Wireless Earbuds,Premium,Electronics,Aster Distribution,102.99,60.73,24,6,21
+SKU-1006,Wireless Earbuds,Pro,Electronics,Aster Distribution,48.0,31.91,32,3,21
+SKU-1007,Power Bank,Standard,Electronics,Nova Supply Co.,127.25,81.84,15,9,21
+SKU-1008,Power Bank,Premium,Electronics,Peak Imports,64.8,35.52,22,11,21
+SKU-1009,Power Bank,Pro,Electronics,Nova Supply Co.,120.75,92.43,20,7,21
+SKU-1010,USB-C Hub,Standard,Electronics,Peak Imports,23.78,18.47,29,9,21
+SKU-1011,USB-C Hub,Premium,Electronics,Urban Source Ltd.,116.31,63.87,21,5,21
+SKU-1012,USB-C Hub,Pro,Electronics,Nova Supply Co.,66.9,46.06,30,4,21
+SKU-1013,Mechanical Keyboard,Standard,Electronics,Nova Supply Co.,35.15,24.14,19,5,21
+SKU-1014,Mechanical Keyboard,Premium,Electronics,Nova Supply Co.,106.42,74.24,15,10,21
+SKU-1015,Mechanical Keyboard,Pro,Electronics,Aster Distribution,110.43,80.89,29,10,21
+SKU-1016,Air Fryer,Standard,Home & Kitchen,Aster Distribution,98.91,70.38,32,5,24
+SKU-1017,Air Fryer,Premium,Home & Kitchen,Peak Imports,85.71,66.93,31,4,24
+SKU-1018,Air Fryer,Pro,Home & Kitchen,Peak Imports,12.8,7.68,29,8,24
+SKU-1019,Electric Kettle,Standard,Home & Kitchen,Nova Supply Co.,88.16,53.02,24,7,24
+SKU-1020,Electric Kettle,Premium,Home & Kitchen,Peak Imports,73.42,57.33,17,4,24
+SKU-1021,Electric Kettle,Pro,Home & Kitchen,Aster Distribution,84.19,57.93,31,8,24
+SKU-1022,Blender,Standard,Home & Kitchen,Peak Imports,94.62,60.77,25,7,24
+SKU-1023,Blender,Premium,Home & Kitchen,Urban Source Ltd.,72.39,53.2,25,3,24
+SKU-1024,Blender,Pro,Home & Kitchen,Aster Distribution,59.17,44.96,18,6,24
+SKU-1025,Desk Lamp,Standard,Home & Kitchen,Urban Source Ltd.,104.17,78.6,30,3,24
+SKU-1026,Desk Lamp,Premium,Home & Kitchen,Peak Imports,42.39,31.28,21,8,24
+SKU-1027,Desk Lamp,Pro,Home & Kitchen,Brightline Wholesale,72.16,43.33,34,8,24
+SKU-1028,Storage Box,Standard,Home & Kitchen,Nova Supply Co.,55.89,33.09,19,4,24
+SKU-1029,Storage Box,Premium,Home & Kitchen,Aster Distribution,14.45,11.48,29,9,24
+SKU-1030,Storage Box,Pro,Home & Kitchen,Urban Source Ltd.,61.88,47.95,32,7,24
+SKU-1031,Notebook,Standard,Office,Brightline Wholesale,36.9,23.06,23,7,30
+SKU-1032,Notebook,Premium,Office,Brightline Wholesale,86.3,63.48,27,8,30
+SKU-1033,Gel Pen Set,Standard,Office,Aster Distribution,82.15,65.35,19,4,30
+SKU-1034,Gel Pen Set,Premium,Office,Aster Distribution,211.77,119.78,23,9,30
+SKU-1035,Monitor Stand,Standard,Office,Brightline Wholesale,61.43,33.7,18,10,30
+SKU-1036,Monitor Stand,Premium,Office,Nova Supply Co.,158.85,110.27,28,5,30
+SKU-1037,Desk Organizer,Standard,Office,Nova Supply Co.,24.82,14.08,14,7,30
+SKU-1038,Desk Organizer,Premium,Office,Urban Source Ltd.,47.71,35.03,30,8,30
+SKU-1039,Office Chair,Standard,Office,Nova Supply Co.,42.18,24.47,12,9,30
+SKU-1040,Office Chair,Premium,Office,Brightline Wholesale,159.4,111.42,19,8,30
+SKU-1041,Face Cleanser,Standard,Beauty,Brightline Wholesale,40.88,26.08,26,3,25
+SKU-1042,Face Cleanser,Premium,Beauty,Peak Imports,31.12,25.16,16,7,25
+SKU-1043,Sunscreen,Standard,Beauty,Brightline Wholesale,26.13,20.37,27,3,25
+SKU-1044,Sunscreen,Premium,Beauty,Nova Supply Co.,41.08,31.72,18,11,25
+SKU-1045,Moisturizer,Standard,Beauty,Urban Source Ltd.,40.7,29.42,26,8,25
+SKU-1046,Moisturizer,Premium,Beauty,Peak Imports,8.32,4.59,21,7,25
+SKU-1047,Hair Dryer,Standard,Beauty,Nova Supply Co.,52.4,41.75,18,7,25
+SKU-1048,Hair Dryer,Premium,Beauty,Urban Source Ltd.,35.46,19.77,15,8,25
+SKU-1049,Makeup Brush Set,Standard,Beauty,Nova Supply Co.,34.46,25.68,33,5,25
+SKU-1050,Makeup Brush Set,Premium,Beauty,Peak Imports,37.2,25.93,18,3,25
+SKU-1051,Yoga Mat,Standard,Sports,Brightline Wholesale,71.8,40.86,24,4,21
+SKU-1052,Yoga Mat,Premium,Sports,Peak Imports,51.11,40.36,27,9,21
+SKU-1053,Yoga Mat,Pro,Sports,Brightline Wholesale,30.37,19.3,28,9,21
+SKU-1054,Resistance Bands,Standard,Sports,Peak Imports,67.42,53.25,26,11,21
+SKU-1055,Resistance Bands,Premium,Sports,Aster Distribution,26.5,21.45,15,7,21
+SKU-1056,Resistance Bands,Pro,Sports,Nova Supply Co.,37.19,21.86,22,10,21
+SKU-1057,Water Bottle,Standard,Sports,Nova Supply Co.,33.1,18.31,26,5,21
+SKU-1058,Water Bottle,Premium,Sports,Aster Distribution,48.14,36.02,34,11,21
+SKU-1059,Water Bottle,Pro,Sports,Brightline Wholesale,21.51,17.37,18,6,21
+SKU-1060,Running Belt,Standard,Sports,Nova Supply Co.,84.42,48.15,14,9,21
+SKU-1061,Running Belt,Premium,Sports,Aster Distribution,76.7,43.71,14,7,21
+SKU-1062,Running Belt,Pro,Sports,Nova Supply Co.,33.01,19.93,19,8,21
+SKU-1063,Dumbbell Set,Standard,Sports,Urban Source Ltd.,37.4,29.68,28,9,21
+SKU-1064,Dumbbell Set,Premium,Sports,Brightline Wholesale,28.95,16.15,33,5,21
+SKU-1065,Dumbbell Set,Pro,Sports,Urban Source Ltd.,18.33,10.76,32,4,21

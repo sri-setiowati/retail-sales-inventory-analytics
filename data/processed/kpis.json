@@ -1,0 +1,11 @@
+{
+  "total_revenue": 301308.48,
+  "total_profit": 85968.16,
+  "gross_margin_pct": 0.2853,
+  "orders": 3200,
+  "units_sold": 4704,
+  "avg_order_value": 94.16,
+  "products": 65,
+  "stockout_product_months": 9,
+  "overstock_product_months": 287
+}

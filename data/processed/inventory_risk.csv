@@ -1,0 +1,66 @@
+product_id,product_name,category,supplier,reorder_point,avg_days_cover,min_closing_stock,avg_closing_stock,months_stockout,months_low_stock,months_overstock,risk_flag,priority_score
+SKU-1029,Storage Box,Home & Kitchen,Aster Distribution,29,547.4166666666666,0,69.16666666666667,2,2,2,High Stockout Risk,14
+SKU-1062,Running Belt,Sports,Nova Supply Co.,19,548.125,0,60.666666666666664,1,2,6,Overstock Risk,14
+SKU-1059,Water Bottle,Sports,Brightline Wholesale,18,425.5083333333334,0,54.166666666666664,1,2,6,Overstock Risk,14
+SKU-1061,Running Belt,Sports,Aster Distribution,14,172.51666666666665,0,48.333333333333336,1,1,5,Overstock Risk,11
+SKU-1031,Notebook,Office,Brightline Wholesale,23,494.8833333333334,4,80.33333333333333,0,2,6,Overstock Risk,10
+SKU-1014,Mechanical Keyboard,Electronics,Nova Supply Co.,15,296.6166666666667,1,63.583333333333336,0,1,8,Overstock Risk,10
+SKU-1007,Power Bank,Electronics,Nova Supply Co.,15,249.61666666666667,1,41.666666666666664,0,3,4,Watch Low Stock,10
+SKU-1050,Makeup Brush Set,Beauty,Peak Imports,18,426.1333333333334,0,55.416666666666664,1,1,3,Overstock Risk,9
+SKU-1011,USB-C Hub,Electronics,Urban Source Ltd.,21,277.51666666666665,0,47.25,1,2,1,Normal,9
+SKU-1052,Yoga Mat,Sports,Peak Imports,27,1028.0249999999999,28,112.0,0,0,9,Overstock Risk,9
+SKU-1020,Electric Kettle,Home & Kitchen,Peak Imports,17,495.94166666666666,1,62.416666666666664,0,1,7,Overstock Risk,9
+SKU-1048,Hair Dryer,Beauty,Urban Source Ltd.,15,420.2583333333334,1,49.833333333333336,0,2,5,Overstock Risk,9
+SKU-1057,Water Bottle,Sports,Nova Supply Co.,26,138.40833333333333,2,83.16666666666667,0,2,5,Overstock Risk,9
+SKU-1047,Hair Dryer,Beauty,Nova Supply Co.,18,538.5416666666666,0,57.833333333333336,1,0,4,Overstock Risk,8
+SKU-1009,Power Bank,Electronics,Nova Supply Co.,20,225.04166666666666,0,61.25,1,1,2,Normal,8
+SKU-1017,Air Fryer,Home & Kitchen,Peak Imports,31,933.125,6,105.0,0,1,6,Overstock Risk,8
+SKU-1065,Dumbbell Set,Sports,Urban Source Ltd.,32,791.7583333333333,8,101.08333333333333,0,1,6,Overstock Risk,8
+SKU-1051,Yoga Mat,Sports,Brightline Wholesale,24,776.25,6,79.91666666666667,0,1,6,Overstock Risk,8
+SKU-1034,Gel Pen Set,Office,Aster Distribution,23,564.625,2,68.0,0,2,4,Overstock Risk,8
+SKU-1004,Wireless Earbuds,Electronics,Aster Distribution,16,388.55,1,47.0,0,2,4,Overstock Risk,8
+SKU-1028,Storage Box,Home & Kitchen,Nova Supply Co.,19,321.925,1,42.916666666666664,0,3,2,Watch Low Stock,8
+SKU-1056,Resistance Bands,Sports,Nova Supply Co.,22,231.65833333333333,5,93.16666666666667,0,1,6,Overstock Risk,8
+SKU-1043,Sunscreen,Beauty,Brightline Wholesale,27,978.3333333333334,65,108.91666666666667,0,0,7,Overstock Risk,7
+SKU-1006,Wireless Earbuds,Electronics,Aster Distribution,32,763.3416666666667,5,107.33333333333333,0,1,5,Overstock Risk,7
+SKU-1021,Electric Kettle,Home & Kitchen,Aster Distribution,31,704.625,7,113.16666666666667,0,1,5,Overstock Risk,7
+SKU-1018,Air Fryer,Home & Kitchen,Peak Imports,29,446.77500000000003,7,95.0,0,1,5,Overstock Risk,7
+SKU-1060,Running Belt,Sports,Nova Supply Co.,14,440.2583333333334,29,61.333333333333336,0,0,7,Overstock Risk,7
+SKU-1055,Resistance Bands,Sports,Aster Distribution,15,360.2083333333333,1,43.25,0,2,3,Overstock Risk,7
+SKU-1026,Desk Lamp,Home & Kitchen,Peak Imports,21,273.68333333333334,36,83.66666666666667,0,0,7,Overstock Risk,7
+SKU-1036,Monitor Stand,Office,Nova Supply Co.,28,230.15,6,100.75,0,1,5,Overstock Risk,7
+SKU-1024,Blender,Home & Kitchen,Aster Distribution,18,226.375,4,63.0,0,1,5,Overstock Risk,7
+SKU-1035,Monitor Stand,Office,Brightline Wholesale,18,148.88333333333333,47,80.16666666666667,0,0,7,Overstock Risk,7
+SKU-1058,Water Bottle,Sports,Aster Distribution,34,855.625,1,87.75,0,2,2,Normal,6
+SKU-1016,Air Fryer,Home & Kitchen,Aster Distribution,32,845.4333333333334,7,106.91666666666667,0,1,4,Overstock Risk,6
+SKU-1038,Desk Organizer,Office,Urban Source Ltd.,30,819.8583333333332,8,101.08333333333333,0,1,4,Overstock Risk,6
+SKU-1027,Desk Lamp,Home & Kitchen,Brightline Wholesale,34,796.9416666666666,6,101.41666666666667,0,1,4,Overstock Risk,6
+SKU-1022,Blender,Home & Kitchen,Peak Imports,25,796.3416666666667,48,95.5,0,0,6,Overstock Risk,6
+SKU-1008,Power Bank,Electronics,Peak Imports,22,511.72499999999997,31,88.75,0,0,6,Overstock Risk,6
+SKU-1023,Blender,Home & Kitchen,Urban Source Ltd.,25,506.7583333333334,4,69.08333333333333,0,2,2,Normal,6
+SKU-1005,Wireless Earbuds,Electronics,Aster Distribution,24,461.4916666666666,45,95.5,0,0,6,Overstock Risk,6
+SKU-1039,Office Chair,Office,Nova Supply Co.,12,458.125,34,51.666666666666664,0,0,6,Overstock Risk,6
+SKU-1002,Bluetooth Speaker,Electronics,Nova Supply Co.,24,190.66666666666666,3,80.75,0,1,4,Overstock Risk,6
+SKU-1049,Makeup Brush Set,Beauty,Nova Supply Co.,33,993.4166666666666,41,110.25,0,0,5,Overstock Risk,5
+SKU-1054,Resistance Bands,Sports,Peak Imports,26,929.1666666666666,63,99.41666666666667,0,0,5,Overstock Risk,5
+SKU-1045,Moisturizer,Beauty,Urban Source Ltd.,26,712.9166666666666,2,72.41666666666667,0,1,3,Overstock Risk,5
+SKU-1046,Moisturizer,Beauty,Peak Imports,21,563.5749999999999,46,79.58333333333333,0,0,5,Overstock Risk,5
+SKU-1063,Dumbbell Set,Sports,Urban Source Ltd.,28,562.3000000000001,1,74.16666666666667,0,1,3,Overstock Risk,5
+SKU-1040,Office Chair,Office,Brightline Wholesale,19,511.8666666666666,1,61.75,0,1,3,Overstock Risk,5
+SKU-1044,Sunscreen,Beauty,Nova Supply Co.,18,435.1583333333333,20,65.91666666666667,0,0,5,Overstock Risk,5
+SKU-1012,USB-C Hub,Electronics,Nova Supply Co.,30,307.3333333333333,30,103.91666666666667,0,0,5,Overstock Risk,5
+SKU-1019,Electric Kettle,Home & Kitchen,Nova Supply Co.,24,269.34999999999997,39,91.66666666666667,0,0,5,Overstock Risk,5
+SKU-1042,Face Cleanser,Beauty,Peak Imports,16,215.70000000000002,2,47.666666666666664,0,1,3,Overstock Risk,5
+SKU-1010,USB-C Hub,Electronics,Peak Imports,29,169.375,8,84.0,0,1,3,Overstock Risk,5
+SKU-1003,Bluetooth Speaker,Electronics,Brightline Wholesale,23,703.85,40,84.91666666666667,0,0,4,Overstock Risk,4
+SKU-1025,Desk Lamp,Home & Kitchen,Urban Source Ltd.,30,591.3166666666667,36,98.33333333333333,0,0,4,Overstock Risk,4
+SKU-1037,Desk Organizer,Office,Nova Supply Co.,14,372.125,24,51.166666666666664,0,0,4,Overstock Risk,4
+SKU-1053,Yoga Mat,Sports,Brightline Wholesale,28,176.99166666666667,4,85.75,0,1,2,Normal,4
+SKU-1013,Mechanical Keyboard,Electronics,Nova Supply Co.,19,689.1666666666666,39,70.58333333333333,0,0,3,Overstock Risk,3
+SKU-1015,Mechanical Keyboard,Electronics,Aster Distribution,29,623.5333333333333,46,93.33333333333333,0,0,3,Overstock Risk,3
+SKU-1064,Dumbbell Set,Sports,Brightline Wholesale,33,599.3666666666667,46,110.66666666666667,0,0,3,Overstock Risk,3
+SKU-1030,Storage Box,Home & Kitchen,Urban Source Ltd.,32,598.7583333333333,43,105.58333333333333,0,0,3,Overstock Risk,3
+SKU-1033,Gel Pen Set,Office,Aster Distribution,19,531.4499999999999,48,74.16666666666667,0,0,3,Overstock Risk,3
+SKU-1001,Bluetooth Speaker,Electronics,Nova Supply Co.,21,417.10833333333335,22,66.91666666666667,0,0,3,Overstock Risk,3
+SKU-1032,Notebook,Office,Brightline Wholesale,27,622.0333333333333,44,75.16666666666667,0,0,2,Normal,2
+SKU-1041,Face Cleanser,Beauty,Brightline Wholesale,26,654.6750000000001,45,82.08333333333333,0,0,1,Normal,1

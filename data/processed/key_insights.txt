@@ -1,0 +1,5 @@
+Electronics is the largest revenue contributor at 37.3% of total revenue.
+Beauty has the lowest category margin at 23.1%; pricing and discounting should be reviewed.
+9 product-month stockout observations were identified, creating availability risk.
+287 product-month overstock observations were identified, indicating excess working-capital exposure.
+Prioritize products with repeated stockouts first, then review high-cover SKUs for purchase-order and replenishment adjustments.
