@@ -1,225 +1,493 @@
 # Retail Sales & Inventory Analytics
 
-End-to-end data analytics project focused on retail sales performance, profitability, product performance, and inventory risk.
+End-to-end Data Analytics project analyzing retail sales performance, profitability, product performance, and inventory risk using Python, SQL, Excel, and Power BI.
 
-This project demonstrates how sales and inventory data can be transformed into actionable business insights using **Python, SQL, Excel, and Power BI**.
+The project demonstrates a complete analytical workflow — from data preparation and exploratory analysis to SQL analysis, business KPI development, interactive Power BI dashboards, and actionable business recommendations.
 
-> **Dataset Note:**  
-> This project uses a fully synthetic dataset created for portfolio demonstration. The dataset is designed to simulate realistic retail sales and inventory scenarios and does not represent the performance of a real company.
+> **Dataset Note**
+>
+> This project uses a fully synthetic dataset created specifically for portfolio demonstration. The data is designed to simulate realistic retail sales and inventory scenarios and does not represent the performance or operations of a real company.
 
 ---
 
-## Business Problem
+## 📌 Project Overview
 
 Retail businesses need to balance revenue growth, profitability, and inventory availability.
 
-High sales do not necessarily mean high profitability, while excess inventory can tie up working capital and stockouts can result in missed sales opportunities.
+A product may generate high revenue but relatively low profit, while another product may have strong margins but limited sales volume. At the same time, stockouts can lead to missed sales opportunities, while excess inventory can tie up working capital.
 
-This project analyzes retail transaction and inventory data to answer questions such as:
+This project analyzes retail sales and inventory data to identify:
 
-- Which product categories generate the most revenue and profit?
+- Revenue and profit performance
+- Category and product performance
+- Profitability and margin differences
+- High-performing products
+- Low-margin products
+- Stockout and low-stock risks
+- Overstock conditions
+- Products requiring inventory attention
+- Business opportunities for pricing, product prioritization, and inventory management
+
+---
+
+# 🎯 Business Objectives
+
+The main objectives of this project are to:
+
+1. Evaluate overall sales and profitability performance.
+2. Identify the strongest and weakest product categories.
+3. Identify products contributing significantly to revenue and profit.
+4. Analyze differences between revenue contribution and profitability.
+5. Identify inventory risks at the product level.
+6. Prioritize products requiring replenishment or inventory action.
+7. Translate analytical findings into actionable business recommendations.
+8. Demonstrate an end-to-end Data Analyst workflow using multiple analytical tools.
+
+---
+
+# ❓ Business Questions
+
+The analysis focuses on several key business questions:
+
+### Sales Performance
+
+- How much revenue and profit did the business generate?
+- How has revenue and profit changed over time?
+- Which categories generate the most revenue?
+- Which categories generate the most profit?
+- Which products contribute the most revenue?
+
+### Profitability
+
 - Which categories have the strongest profit margins?
-- Which products contribute most to overall revenue?
-- Where are potential inventory risks occurring?
-- Which products may require replenishment attention?
-- Which products or categories may require further commercial review?
-- What actions could management take based on the analysis?
+- Which categories generate high revenue but relatively lower margins?
+- Which products contribute significantly to overall profitability?
+- Where might pricing or product-mix optimization be required?
+
+### Inventory
+
+- Which products are experiencing stockout conditions?
+- Which products are at low-stock risk?
+- Which products are potentially overstocked?
+- Which products should receive the highest inventory attention?
+- Which inventory risks could potentially affect sales performance?
 
 ---
 
-## Project Objectives
+# 🗂️ Dataset
 
-The main objectives are to:
+The project uses a synthetic retail dataset representing sales transactions, product information, and inventory conditions.
 
-1. Analyze overall sales and profitability performance.
-2. Identify high-performing products and categories.
-3. Evaluate profit margins across product categories.
-4. Identify inventory risks including stockout, low-stock, and overstock conditions.
-5. Prioritize products requiring inventory attention.
-6. Translate analytical findings into actionable business recommendations.
-7. Demonstrate an end-to-end analytics workflow from raw data to business dashboard.
-
----
-
-## Dataset
-
-The project uses synthetic retail data designed to represent a small-to-medium retail environment.
-
-### Main datasets
+## Main Datasets
 
 | Dataset | Description |
 |---|---|
-| `sales.csv` | Retail sales transactions |
+| `sales.csv` | Retail sales transaction data |
 | `products.csv` | Product master data |
-| `inventory_snapshot.csv` | Inventory status and stock-related metrics |
+| `inventory_snapshot.csv` | Product-level inventory snapshot data |
 
-The dataset contains information related to:
+### Dataset Scale
 
-- Orders
-- Products
-- Categories
-- Sales
-- Costs
-- Profit
-- Quantity sold
-- Inventory levels
-- Stockout conditions
-- Low-stock conditions
-- Overstock conditions
+- **3,200** sales transactions/orders
+- **65** products
+- **780** inventory product-month snapshots
+- Analysis period: **January–December 2025**
 
 ---
 
-## Analytical Workflow
+# 🔍 Data Contents
 
-The project follows an end-to-end analytical workflow:
+The datasets contain information related to:
+
+### Sales
+
+- Order ID
+- Order date
+- Product
+- Category
+- Quantity
+- Revenue
+- Cost
+- Profit
+
+### Products
+
+- Product ID
+- Product name
+- Category
+- Product attributes
+- Pricing/cost information
+
+### Inventory
+
+- Product ID
+- Inventory date/month
+- Stock level
+- Inventory condition
+- Stockout indicators
+- Low-stock indicators
+- Overstock indicators
+- Priority/risk metrics
+
+---
+
+# 🛠️ Tools & Technologies
+
+## Python
+
+Used for data preparation, cleaning, transformation, and analytical preprocessing.
+
+Libraries:
+
+- Pandas
+- NumPy
+
+Key activities:
+
+- Data type validation
+- Data cleaning
+- Duplicate checks
+- Missing-value checks
+- Data transformation
+- Feature preparation
+- Processed dataset generation
+
+---
+
+## SQL
+
+Used to answer business-oriented analytical questions and validate key metrics.
+
+Techniques include:
+
+- SELECT
+- WHERE
+- GROUP BY
+- ORDER BY
+- JOIN
+- CASE WHEN
+- Aggregate functions
+- Conditional analysis
+- Product and category analysis
+
+---
+
+## Power BI
+
+Used to build the analytical data model and interactive dashboards.
+
+Key features:
+
+- Data modeling
+- Table relationships
+- DAX measures
+- KPI cards
+- Interactive slicers
+- Category analysis
+- Product performance analysis
+- Profitability analysis
+- Inventory risk analysis
+
+---
+
+## Excel
+
+Used as a supporting analytical and validation layer.
+
+The analysis includes:
+
+- Project summary
+- Category performance
+- Top products
+- Inventory risk
+- Data dictionary
+
+---
+
+## Git & GitHub
+
+Used for:
+
+- Version control
+- Project organization
+- Documentation
+- Portfolio presentation
+- Reproducibility
+
+---
+
+# 🔄 Analytical Workflow
+
+The project follows an end-to-end Data Analytics workflow:
 
 ```text
 Raw Data
-   ↓
+    ↓
 Data Preparation
-   ↓
+    ↓
+Data Cleaning & Validation
+    ↓
 Exploratory Data Analysis
-   ↓
-SQL Analysis
-   ↓
-Business Metrics
-   ↓
-Power BI Data Model
-   ↓
+    ↓
+SQL Business Analysis
+    ↓
+KPI Development
+    ↓
+Power BI Data Modeling
+    ↓
 DAX Measures
-   ↓
+    ↓
 Interactive Dashboard
-   ↓
+    ↓
 Business Insights
-   ↓
+    ↓
 Recommendations
-Tools & Technologies
-Python
-Pandas
-NumPy
-Data cleaning
+🧹 Data Preparation
+
+The raw datasets were processed using Python/Pandas before being used for analysis.
+
+The preparation workflow includes:
+
+Data type validation
+Missing-value checks
+Duplicate checks
+Data consistency checks
 Data transformation
-Exploratory data analysis
-SQL
-SELECT
-WHERE
-GROUP BY
-JOIN
-CASE WHEN
-Aggregations
-Business-oriented analytical queries
-Power BI
-Data modeling
-Relationships
-DAX measures
-KPI cards
-Interactive slicers
-Sales analysis
-Profitability analysis
-Inventory risk analysis
-Excel
-Summary analysis
-Category performance
-Product performance
-Inventory risk analysis
-Data dictionary
-Key Business Metrics
+Derived analytical fields
+Processed dataset generation
 
-The analysis focuses on several core retail KPIs:
+The main preparation script is available in:
 
+python/data_preparation.py
+📊 Exploratory & Business Analysis
+
+The analysis focuses on four major areas:
+
+1. Sales Performance
+
+Analyze revenue, orders, units sold, and sales trends.
+
+2. Profitability
+
+Evaluate cost, profit, and profit margins across products and categories.
+
+3. Product Performance
+
+Identify high-performing and underperforming products based on revenue and profitability.
+
+4. Inventory Risk
+
+Identify products exposed to:
+
+Stockout
+Low-stock
+Overstock
+
+and prioritize products requiring further attention.
+
+🧮 Key Business Metrics
+
+The project evaluates several core retail KPIs:
+
+KPI	Purpose
+Total Revenue	Measures overall sales value
+Total Cost	Measures associated product cost
+Total Profit	Measures gross profit contribution
+Profit Margin %	Measures profitability relative to revenue
+Total Orders	Measures transaction volume
+Units Sold	Measures product demand volume
+Average Order Value	Measures average revenue per order
+Inventory Value	Measures capital tied to inventory
+Low Stock Items	Identifies products requiring stock attention
+Stockout Items	Identifies potential lost-sales risk
+Overstock Items	Identifies excess inventory risk
+📈 Power BI Dashboard
+
+The Power BI dashboard is designed around two main analytical views.
+
+Page 1 — Sales & Profitability Overview
+
+The first dashboard provides an executive-level view of sales and profitability.
+
+KPIs
 Total Revenue
-Total Cost
 Total Profit
-Profit Margin
+Profit Margin %
 Total Orders
 Units Sold
 Average Order Value
+Visual Analysis
+Revenue and profit trend
+Revenue by category
+Profit by category
+Revenue contribution by category
+Top products by revenue
+Category performance table
+Interactive Filters
+Date
+Category
+Product
+Page 2 — Inventory Risk & Product Performance
+
+The second dashboard focuses on inventory health and product-level risk.
+
+KPIs
 Inventory Value
-Low-Stock Products
-Stockout Products
-Overstock Products
-Key Findings
-Sales & Profitability
+Low Stock Items
+Stockout Items
+Overstock Items
+At-Risk Products
+Visual Analysis
+Inventory risk distribution
+Inventory by category
+Product inventory risk
+High-priority products
+Stockout and low-stock conditions
+Overstock analysis
 
-The analysis shows that Electronics is the largest revenue-generating category, while Sports demonstrates the strongest profit margin among the analyzed categories.
+The dashboard screenshots are available in:
 
-This highlights an important business distinction:
+screenshots/
 
-The category generating the most revenue is not necessarily the category generating the strongest margin.
+The Power BI source file is available in:
 
-This suggests that management should evaluate both revenue contribution and profitability when prioritizing products and categories.
+powerbi/
+🧩 Power BI Data Model
 
-Inventory
+The Power BI model uses product information as a shared dimension for sales and inventory analysis.
 
-The inventory analysis identifies products exposed to different levels of inventory risk, including:
+Conceptually:
 
-Stockout risk
-Low-stock risk
-Overstock risk
+                  Products
+                 /        \
+                /          \
+               ↓            ↓
+             Sales      Inventory
 
-A priority-based approach can help management focus attention on products where inventory conditions may have the greatest potential business impact.
+The product table provides product and category attributes used across the sales and inventory analysis.
 
-Business Recommendations
+This structure helps maintain consistent filtering and analysis across the dashboard.
 
-Based on the analysis, several actions can be considered:
+💡 Key Findings
+Sales & Revenue
 
-1. Prioritize high-risk inventory
+Electronics is the largest revenue-generating category in the analyzed dataset.
 
-Review products with repeated stockout or low-stock conditions and evaluate whether replenishment policies need adjustment.
+However, revenue leadership does not automatically translate into the strongest profitability.
 
-2. Review overstocked products
+This demonstrates why retail performance should be evaluated using both revenue and profit rather than sales volume alone.
 
-Identify products with consistently high inventory relative to sales activity and consider:
+Profitability
+
+Sports shows the strongest profit margin among the analyzed categories.
+
+This indicates that categories with lower absolute revenue can still generate attractive profitability.
+
+From a management perspective, category prioritization should therefore consider:
+
+Revenue contribution
+Profit contribution
+Profit margin
+Sales volume
+
+rather than relying on a single KPI.
+
+Product Performance
+
+Several products contribute significantly to overall revenue.
+
+High-revenue products can become important commercial priorities because changes in pricing, availability, or demand can have a meaningful effect on overall business performance.
+
+However, product prioritization should also consider profitability and inventory conditions.
+
+Inventory Risk
+
+The inventory analysis identifies multiple product-level risks, including:
+
+Stockout
+Low stock
+Overstock
+
+These conditions represent different business challenges.
+
+Stockout
+
+Potential risk of:
+
+Lost sales
+Customer dissatisfaction
+Reduced product availability
+Low Stock
+
+Potential indication that replenishment may be required.
+
+Overstock
+
+Potential risk of:
+
+Excess working capital
+Higher holding costs
+Slow-moving inventory
+Increased markdown requirements
+🎯 Business Recommendations
+
+Based on the analysis, several actions can be considered.
+
+1. Prioritize Stockout & Low-Stock Products
+
+Products with repeated stockout or low-stock conditions should receive replenishment attention.
+
+The business could review:
+
+Historical sales
+Current stock
+Replenishment frequency
+Supplier lead time
+Safety stock requirements
+2. Review Overstocked Products
+
+Products with persistent excess inventory should be evaluated for possible inventory reduction.
+
+Potential actions include:
 
 Promotional campaigns
 Bundling
 Pricing adjustments
 Reduced replenishment quantities
-3. Protect high-margin categories
+Clearance strategies
+3. Protect High-Margin Categories
 
-Categories with stronger margins should be evaluated for opportunities to increase sales volume while maintaining profitability.
+Categories with stronger profit margins may provide opportunities for profitable growth.
 
-4. Review high-revenue but lower-margin products
+Management could evaluate:
 
-High sales volume alone should not determine product priority. Products generating significant revenue but weaker margins may require pricing, sourcing, or product-mix review.
+Increasing sales volume
+Expanding product assortment
+Maintaining competitive pricing
+Prioritizing high-margin products
+4. Review High-Revenue but Lower-Margin Products
 
-5. Improve inventory planning
+Products generating significant revenue but relatively lower profitability should be reviewed for:
 
-A production version of this analysis could incorporate supplier lead times, purchase orders, historical demand patterns, and promotional calendars to improve replenishment decisions.
+Pricing optimization
+Procurement cost reduction
+Supplier negotiation
+Product-mix optimization
+Discount strategy
+5. Improve Inventory Planning
 
-Dashboard
+A production implementation could combine sales history with:
 
-The Power BI dashboard is structured into two analytical views.
+Supplier lead time
+Purchase orders
+Historical inventory movements
+Safety stock
+Promotions
+Demand forecasts
 
-Sales & Profitability Overview
+to improve replenishment decisions.
 
-The first dashboard focuses on:
-
-Revenue
-Profit
-Profit Margin
-Orders
-Units Sold
-Average Order Value
-Revenue trends
-Category performance
-Top products
-Inventory Risk & Product Performance
-
-The second dashboard focuses on:
-
-Inventory value
-Low-stock products
-Stockout products
-Overstock products
-Inventory risk distribution
-Product-level inventory priorities
-
-Dashboard screenshots are available in the screenshots directory.
-
-The Power BI source file is available in the powerbi directory.
-
-Project Structure
+📁 Project Structure
 retail-sales-inventory-analytics/
 │
 ├── analysis/
@@ -235,6 +503,7 @@ retail-sales-inventory-analytics/
 │       └── ...
 │
 ├── python/
+│   ├── data_preparation.py
 │   └── ...
 │
 ├── sql/
@@ -253,73 +522,76 @@ retail-sales-inventory-analytics/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-Data Preparation
-
-The Python pipeline is used to prepare the raw datasets before analysis.
-
-Key preparation activities include:
-
-Data type validation
-Data cleaning
-Missing-value checks
-Duplicate checks
-Feature preparation
-Derived analytical fields
-Exporting processed datasets
-
-The main preparation script is available in:
-
-python/data_preparation.py
-SQL Analysis
+📦 Project Deliverables
+Deliverable	Description
+Raw datasets	Original synthetic retail datasets
+Processed datasets	Cleaned and transformed datasets
+Python pipeline	Data preparation and transformation
+SQL analysis	Business-oriented analytical queries
+Excel analysis	Supporting analysis and validation
+Power BI dashboard	Interactive sales and inventory analysis
+Dashboard screenshots	Portfolio dashboard previews
+Documentation	Data dictionary and project methodology
+📚 SQL Analysis
 
 SQL is used to answer business questions related to:
 
-Sales performance
-Product performance
-Category performance
+Revenue performance
 Profitability
+Category performance
+Product performance
 Inventory risk
+Product prioritization
 
-The analytical queries are available in:
+The main SQL analysis file is:
 
 sql/analysis_queries.sql
-Power BI Data Model
+📓 Python Analysis
 
-The Power BI model uses a product dimension connected to sales and inventory data.
+Python is used as the primary data preparation and analytical preprocessing tool.
 
-Conceptually:
+The project uses Pandas and NumPy for:
 
-             Products
-            /        \
-           /          \
-          ↓            ↓
-       Sales      Inventory
+Data cleaning
+Data transformation
+Validation
+Feature preparation
+Analytical dataset generation
 
-This structure allows product and category attributes to be used consistently across sales and inventory analysis.
+Main script:
 
-Limitations
+python/data_preparation.py
+⚠️ Limitations
 
-This project is intentionally designed as a portfolio demonstration and therefore has several limitations:
+This project is intentionally designed as a portfolio demonstration and therefore has several limitations.
 
-The dataset is synthetic.
-The available time period is limited.
-Inventory data represents snapshots rather than a complete daily inventory history.
-Supplier lead times and purchase order history are not included.
-Promotion and campaign data is limited.
+Synthetic Dataset
+
+All business data is synthetic and does not represent an actual company's operational or financial performance.
+
+Limited Time Period
+
+The analysis covers a defined portfolio dataset rather than multiple years of historical business data.
+
+Inventory Snapshots
+
+Inventory information is based on product-month snapshots rather than a complete daily inventory movement history.
+
+Missing Supplier Information
+
+Supplier lead times, purchase orders, and supplier performance metrics are not included.
+
+Limited Promotion Data
+
+Detailed promotion and campaign history is not available.
+
+Forecasting
+
 The project focuses primarily on descriptive and diagnostic analytics rather than advanced demand forecasting.
 
-A production implementation could be extended with:
+🚀 Future Improvements
 
-Supplier lead times
-Purchase orders
-Historical inventory movements
-Promotion and discount history
-Customer-level data
-Demand forecasting
-Automated replenishment recommendations
-Future Improvements
-
-Potential future improvements include:
+Potential extensions for a production-level implementation include:
 
 Demand forecasting
 Inventory turnover analysis
@@ -327,11 +599,51 @@ Safety stock calculation
 Reorder point optimization
 Supplier performance analysis
 Customer segmentation
-Automated reporting
+Promotion effectiveness analysis
+Automated replenishment recommendations
 Power BI Service deployment
 Scheduled data refresh
+Automated reporting
+🧠 Skills Demonstrated
+
+This project demonstrates practical experience in:
+
+Data Cleaning
+Data Preparation
+Exploratory Data Analysis
+Python / Pandas
+SQL
+KPI Development
+Data Modeling
+DAX
+Power BI
+Business Intelligence
+Inventory Analytics
+Profitability Analysis
+Business Problem Solving
+Data Visualization
+Business Storytelling
+Git & GitHub
+📌 Conclusion
+
+This project demonstrates how a Data Analyst can transform raw retail data into business-oriented insights.
+
+Rather than focusing only on sales volume, the analysis combines:
+
+Sales
++
+Profitability
++
+Product Performance
++
+Inventory Risk
+
+to provide a broader view of retail business performance.
+
+The final workflow demonstrates the ability to move from raw data to analysis, visualization, and actionable recommendations using Python, SQL, Excel, and Power BI.
+
 Disclaimer
 
 This project is created for educational and portfolio demonstration purposes.
 
-All business data is synthetic and should not be interpreted as representing an actual company's financial or operational performance.
+All datasets and business scenarios are synthetic and should not be interpreted as representing the actual performance, operations, customers, or financial results of a real company.
